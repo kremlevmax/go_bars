@@ -1,0 +1,25 @@
+.newsLine {
+  color: white;
+  background-color: black;
+  position: sticky;
+}
+
+.slideshow {
+  margin: 0 auto;
+  overflow: hidden;
+  max-width: 1200px;
+}
+
+.slideshowSlider {
+  white-space: nowrap;
+  transition: ease 1000ms;
+}
+
+.slide {
+  display: inline-block;
+  text-align: center;
+  letter-spacing: 0.2rem;
+  padding: 1rem;
+  width: 100%;
+  border-radius: 40px;
+}
