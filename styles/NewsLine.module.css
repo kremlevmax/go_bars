@@ -2,6 +2,8 @@
   color: white;
   background-color: black;
   position: sticky;
+  top: 4rem;
+  z-index: 3;
 }
 
 .slideshow {

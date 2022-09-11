@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import MainBanner from "../components/MainBanner";
 import Menu from "../components/Menu";
 import NewsLine from "../components/NewsLine";
 import styles from "../styles/Home.module.css";
@@ -16,6 +17,7 @@ export default function Home() {
       <main className={styles.main}>
         <Menu />
         <NewsLine />
+        <MainBanner />
       </main>
 
       <footer className={styles.footer}></footer>

@@ -1,0 +1,56 @@
+.MainBannerContainer {
+  display: flex;
+  justify-content: center;
+  background-color: var(--peach);
+}
+
+.mainBanner {
+  position: relative;
+  height: 700px;
+  flex: 0 1 1200px;
+}
+
+.mainBanner img {
+  z-index: 1;
+}
+
+.textContainer {
+  position: relative;
+  top: 25%;
+  max-width: 250px;
+  z-index: 5;
+}
+
+.header {
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+.separator {
+  width: 2rem;
+  height: 4px;
+  background: black;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.textParagraph {
+  line-height: 1.5rem;
+  letter-spacing: 0.03rem;
+}
+
+.button {
+  padding: 0.7em 2rem;
+  border: 1px solid black;
+  width: fit-content;
+  letter-spacing: 0.03rem;
+  cursor: pointer;
+  transition: var(--transition-properties);
+}
+
+.button:hover {
+  background: black;
+  color: white;
+}

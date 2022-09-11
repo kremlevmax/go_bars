@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;500;600&family=Roboto+Condensed:wght@300;400&display=swap");
 
+:root {
+  --peach: #f4ebe2;
+  --transition-properties: all 0.5s ease;
+}
+
 html,
 body {
   padding: 0;
