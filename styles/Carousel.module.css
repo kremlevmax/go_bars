@@ -30,10 +30,9 @@
 }
 
 .carouselContent > * {
-  width: 100%;
   flex-shrink: 0;
   flex-grow: 1;
-  margin-right: 2rem;
+  margin-right: 3.2rem;
 }
 
 .leftArrow,

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import styles from "../styles/Carousel.module.css";
 
-const Carousel = ({ children, show }) => {
+const Carousel = ({ children }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [length, setLength] = useState(children.length);
 
@@ -9,8 +9,10 @@ const Carousel = ({ children, show }) => {
     setLength(children.length);
   }, [children]);
 
+  console.log(length);
+  console.log(currentIndex);
   const next = () => {
-    if (currentIndex < length - 1) {
+    if (currentIndex < length - 4) {
       setCurrentIndex((prevState) => prevState + 1);
     }
   };
@@ -30,7 +32,7 @@ const Carousel = ({ children, show }) => {
         <div className={styles.carouselContentWrapper}>
           <div
             className={styles.carouselContent}
-            style={{ transform: `translateX(-${currentIndex * 100}%)` }}
+            style={{ transform: `translateX(-${currentIndex * 25}%)` }}
           >
             {children}
           </div>
