@@ -18,7 +18,7 @@
   position: relative;
   top: 25%;
   max-width: 250px;
-  z-index: 5;
+  z-index: 2;
 }
 
 .header {

@@ -1,8 +1,8 @@
 import Head from "next/head";
-import Image from "next/image";
 import MainBanner from "../components/MainBanner";
 import Menu from "../components/Menu";
 import NewsLine from "../components/NewsLine";
+import OurProducts from "../components/OurProducts";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -18,6 +18,7 @@ export default function Home() {
         <Menu />
         <NewsLine />
         <MainBanner />
+        <OurProducts />
       </main>
 
       <footer className={styles.footer}></footer>

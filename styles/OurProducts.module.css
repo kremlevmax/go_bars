@@ -1,0 +1,17 @@
+.ourProductsWrapper {
+  width: 100%;
+  padding: 3rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.ourProducts {
+  height: 600px;
+  text-align: center;
+}
+
+.ourProducts p {
+  max-width: 20rem;
+  text-align: center;
+  letter-spacing: 0.03rem;
+}
