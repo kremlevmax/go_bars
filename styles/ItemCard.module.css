@@ -8,6 +8,20 @@
   overflow: hidden;
 }
 
+.bestSellerBadge {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: black;
+  z-index: 2;
+  padding: 0.2rem 0.6rem;
+}
+
+.bestSellerBadge span {
+  color: white;
+  letter-spacing: 0.1rem;
+}
+
 .itemQuickViewButton {
   position: absolute;
   bottom: -100%;
@@ -25,9 +39,8 @@
 }
 
 .itemMenu {
-  /* visibility: hidden; */
   opacity: 0;
-  transition: var(--fast-transition-properties);
+  transition: var(--transition-properties);
 }
 
 .itemQuantity {
@@ -62,5 +75,4 @@
 
 .itemCard:hover .itemMenu {
   opacity: 1;
-  /* visibility: visible; */
 }

@@ -3,15 +3,23 @@
   padding: 3rem 0;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .ourProducts {
   height: 600px;
-  text-align: center;
+  flex: 0 1 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .ourProducts p {
   max-width: 20rem;
-  text-align: center;
   letter-spacing: 0.03rem;
+  text-align: center;
+}
+
+.ourProducts > p {
+  margin-bottom: 4rem;
 }

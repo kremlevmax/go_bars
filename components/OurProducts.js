@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "../styles/OurProducts.module.css";
+import Carousel from "./Carousel";
 import ItemCard from "./ItemCard";
 
 const OurProducts = () => {
@@ -11,7 +12,19 @@ const OurProducts = () => {
           I&apos;m a paragraph. Click here to add your own text and edit me.
           It&apos;s easy.
         </p>
-        <ItemCard />
+        <Carousel>
+          <ItemCard />
+          <ItemCard />
+          <ItemCard />
+          <ItemCard />
+          <ItemCard />
+          <ItemCard />
+          <ItemCard />
+          <ItemCard />
+          <ItemCard />
+          <ItemCard />
+          <ItemCard />
+        </Carousel>
       </div>
     </div>
   );

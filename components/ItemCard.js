@@ -4,6 +4,7 @@ import styles from "../styles/ItemCard.module.css";
 
 const ItemCard = () => {
   const [imageSrc, setImageSrc] = useState("/cards/01_01.png");
+  const [isBestseller, setIsBestseller] = useState(true);
 
   return (
     <div
@@ -12,6 +13,11 @@ const ItemCard = () => {
       onMouseLeave={() => setImageSrc("/cards/01_01.png")}
     >
       <div className={styles.itemCardImageContainer}>
+        {isBestseller && (
+          <div className={styles.bestSellerBadge}>
+            <span>Bestseller</span>
+          </div>
+        )}
         <Image src={imageSrc} width={251} height={251} alt='Product' />
         <div className={styles.itemQuickViewButton}>
           <span>Quick View</span>

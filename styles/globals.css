@@ -2,8 +2,8 @@
 
 :root {
   --peach: #f4ebe2;
-  --dark-peach: #eabbb5;
-  --light-peach: #ffd8d3;
+  --dark-peach: #ffcfc8;
+  --light-peach: #ffe1dd;
   --transition-properties: all 0.5s ease;
   --fast-transition-properties: all 0.2s ease;
 }
