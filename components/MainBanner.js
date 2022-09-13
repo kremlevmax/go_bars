@@ -20,7 +20,13 @@ const MainBanner = () => {
             <div className={styles.button}>Shop Now</div>
           </Link>
         </div>
-        <Image src='/main_banner.png' layout='fill' alt='Main Banner' />
+
+        <Image
+          src='/main_banner.png'
+          layout='fill'
+          alt='Main Banner'
+          objectFit='fill'
+        />
       </div>
     </div>
   );

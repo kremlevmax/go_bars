@@ -6,6 +6,8 @@
   --light-peach: #ffe1dd;
   --transition-properties: all 0.5s ease;
   --fast-transition-properties: all 0.2s ease;
+  --light-peach-bg: #f4ebe2;
+  --dark-peach-bg: #f2d5ce;
 }
 
 html,

@@ -1,0 +1,61 @@
+.bottomBannerWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+
+.bottomBanner {
+  flex: 0 1 1040px;
+}
+
+.banner1,
+.banner2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottomBannerImage {
+  flex: 0 1 50%;
+}
+
+.bottomBannerText1,
+.bottomBannerText2 {
+  padding: 6rem;
+}
+
+.textFirstLine,
+.textSecondLine {
+  margin: 1rem 0;
+}
+
+.banner1 {
+  background: var(--light-peach-bg);
+}
+
+.banner2 {
+  background: var(--dark-peach-bg);
+}
+
+.textFirstLine {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.textSecondLine {
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.textSeparator {
+  height: 4px;
+  width: 4rem;
+  background: black;
+  margin: 2rem 0;
+}
+
+.textParagraph {
+  max-width: 20rem;
+  line-height: 1.5rem;
+}

@@ -2,12 +2,13 @@
   display: flex;
   justify-content: center;
   background-color: var(--peach);
+  height: 600px;
 }
 
 .mainBanner {
+  flex: 0 1 1040px;
+  padding: 5rem 0;
   position: relative;
-  height: 700px;
-  flex: 0 1 1200px;
 }
 
 .mainBanner img {
@@ -16,8 +17,8 @@
 
 .textContainer {
   position: relative;
-  top: 25%;
-  max-width: 250px;
+  top: 15%;
+  width: 30%;
   z-index: 2;
 }
 
@@ -53,4 +54,10 @@
 .button:hover {
   background: black;
   color: white;
+}
+
+.imageContainer {
+  width: 70%;
+  position: relative;
+  z-index: 1;
 }

@@ -9,8 +9,6 @@ const Carousel = ({ children }) => {
     setLength(children.length);
   }, [children]);
 
-  console.log(length);
-  console.log(currentIndex);
   const next = () => {
     if (currentIndex < length - 4) {
       setCurrentIndex((prevState) => prevState + 1);
