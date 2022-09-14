@@ -1,0 +1,12 @@
+.footerConteiner {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  max-width: 1040px;
+  width: 100%;
+}
