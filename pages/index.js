@@ -1,5 +1,6 @@
 import Head from "next/head";
 import BottomBanner from "../components/BottomBanner";
+import Gallery from "../components/Gallery";
 import MainBanner from "../components/MainBanner";
 import Menu from "../components/Menu";
 import NewsLine from "../components/NewsLine";
@@ -23,6 +24,7 @@ export default function Home() {
         <OurProducts />
         <BottomBanner />
         <SignUpBanner />
+        <Gallery />
       </main>
 
       <footer className={styles.footer}></footer>
